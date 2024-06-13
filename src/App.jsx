@@ -8,14 +8,18 @@ function App() {
         await showPopup({ title: "Hello world!", message: message });
     };
     return (
-        <div>
-            <h1>Hello </h1>
-            <button
-                onClick={showPopupOnClick}
-                className='bg-gray-500 hover:bg-gray-400'
-            >
-                show message
-            </button>
+        <div className='min-h-screen flex items-center'>
+            <div className='mx-auto'>
+                <h1 className='text-2xl lg:text-4xl text-center font-bold'>
+                    Hello{" "}
+                </h1>
+                <button
+                    onClick={showPopupOnClick}
+                    className='bg-gray-500 hover:bg-gray-400 text-white px-6 py-2 rounded-md'
+                >
+                    show message
+                </button>
+            </div>
         </div>
     );
 }
