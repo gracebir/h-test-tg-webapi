@@ -18,7 +18,7 @@ Follow these steps to set up and run the app locally on your machine:
 
 1. **Clone the Repository**:
     ```bash
-    git clone [https://github.com/your-username/mini-react-telegram-game-app.git](https://github.com/gracebir/h-test-tg-webapi)
+    git clone https://github.com/gracebir/h-test-tg-webapi
     ```
 
 2. **Navigate to the Project Directory**:
